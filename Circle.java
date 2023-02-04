@@ -23,3 +23,11 @@ public class Circle {
         return "This is circle with radius " + this.radius + ", Area " + getArea() + " and Circumference " + getCircumference();
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        Circle c1 = new Circle(25);
+        System.out.println(c1.toString());
+    }
+}
+
